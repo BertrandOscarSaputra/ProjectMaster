@@ -16,5 +16,29 @@ namespace ProjectMaster
         {
             InitializeComponent();
         }
+
+        private void ribbonProgressBarCenter1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (txtusername.Text == "admin" && txtpassword.Text == "admin")
+            {
+                Formmain frmmain = new Formmain();
+                frmmain.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Anda memasukkan input yang salah!");
+            }
+        }
     }
 }
