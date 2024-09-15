@@ -23,5 +23,35 @@ namespace ProjectMaster
             frmLogin.Show();
             this.Hide();
         }
+
+        private void themeForm1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Formmain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bigLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void crownMenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void sdasdToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void profileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
